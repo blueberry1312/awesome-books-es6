@@ -90,6 +90,12 @@ To run the project, you need to open "index.html" file.
 - Twitter: [@nestorsitooo](https://twitter.com/nestorsitooo)
 - LinkedIn: [LinkedIn] (https://www.linkedin.com/in/nes-oro-658570225/)
 
+👤 **Alejandro Maggioni**
+
+- GitHub: [@githubhandle](https://github.com/alex1779/)
+- Twitter: [@twitterhandle](https://twitter.com/alex1779)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-maggioni-086678b5/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
