@@ -22,11 +22,11 @@ class Library {
     this.books = [];
   }
 
-  saveToLocalStorage() {
+  saveToLocalStorage = () => {
     localStorage.setItem('MY-Library', JSON.stringify(this.books));
   }
 
-  getDataFromLocalStorage() {
+  getDataFromLocalStorage = () => {
     try {
       const data = JSON.parse(localStorage.getItem('MY-Library'));
       if (data !== null) {
@@ -37,7 +37,7 @@ class Library {
     }
   }
 
-  addBook() {
+  addBook = () => {
     const form = document.querySelector('#form');
     const title = document.querySelector('#title');
     const author = document.querySelector('#author');
@@ -55,9 +55,10 @@ class Library {
         document.getElementById('msg-add-book').innerHTML = '';
       }, 3000);
     }
+    addRemoveButtons(this);
   }
 
-  getBooks() {
+  getBooks = () => {
     const section = document.querySelector('#book-list');
     this.getDataFromLocalStorage();
     let books = '<table>';
@@ -79,7 +80,7 @@ class Library {
     section.innerHTML = books;
   }
 
-  removeBook(bookId) {
+  removeBook = (bookId) => {
     const filteredBooks = this.books.filter((book, index) => bookId !== index);
     this.books = filteredBooks;
     this.saveToLocalStorage();
